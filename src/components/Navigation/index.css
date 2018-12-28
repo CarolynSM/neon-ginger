@@ -1,0 +1,28 @@
+
+
+.primary_nav__container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.primary_nav__ul {
+    color: #818894;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1em;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.primary_nav__ul .primary_nav__li {
+    cursor: pointer;
+    margin: 0 1rem;
+    text-transform: uppercase;
+}
+
+.primary_nav__ul .primary_nav__li.selected {
+    border-bottom: 2px solid deeppink;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}

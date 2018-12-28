@@ -1,0 +1,59 @@
+/* BUTTON RESET */
+button {
+    border: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	overflow: visible;
+
+	background: transparent;
+
+	/* inherit font & color from ancestor */
+	color: inherit;
+	font: inherit;
+
+	/* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+	line-height: normal;
+
+	/* Corrects font smoothing for webkit */
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+
+	/* Corrects inability to style clickable `input` types in iOS */
+	-webkit-appearance: none;
+}
+
+
+.btn_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #818894;
+    border: 1px solid deeppink;
+    border-radius: 0.25em;
+    color: deeppink;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    margin: 0.5em 1rem;
+    max-width: 16rem;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #b2b7c1;
+    font-weight: bold;
+}
+
+.isDisabled {
+    background-color: #cccfd6;
+}
+
+.isDisabled:hover {
+    background-color: #cccfd6;
+    font-weight: normal;
+}
+
